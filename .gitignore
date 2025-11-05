@@ -8,9 +8,14 @@
 /wp-admin/
 /wp-content/index.php
 /wp-content/languages
+/wp-content/plugins
 /wp-content/plugins/index.php
 /wp-content/themes/index.php
 /wp-includes/
+/html/node_modules
+/html/dist/images
+/video
+/html/video
 /index.php
 /license.txt
 /readme.html
