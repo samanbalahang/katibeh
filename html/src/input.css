@@ -5,6 +5,7 @@
     --color-navy-300: #362c8f;
     --color-navy-100: #746fa3;
     --color-bermuda: #78dcca;
+    --color-naji-rev: #ED1C25;
 
 }
 
@@ -37,30 +38,6 @@ body {
     /* clip-path: url("../images/New Project.svg#Shape1"); */
 
 }
-
-/* SVG definition for clipping */
-/* .clip-path {
-  clip-path: url(#upside-down-wave);
-} */
-/* .svg-defs {
-    position: absolute;
-    bottom: 0;
-    z-index: 100;
-}
-.svg-defs use{
-  animation:move-forever 2s linear infinite;
-  &:nth-child(2){ animation-duration:2.5s; animation-delay:-1.5s; }
-  &:nth-child(1){ animation-duration:5s}
-}
-.svg-defs use:first-child{
-    filter: white;
-}
-.svg-defs use:nth-child(2){
-    fill: rgba(255, 255, 255, 0.578);
-}
-.svg-defs use:last-child{
-    fill: rgba(255, 255, 255, 0.385);
-} */
 
 @keyframes move-forever {
     0% {
@@ -264,35 +241,7 @@ body {
     }
 }
 
-/* @media screen and (max-height: 600px) {
-    .card {
-        height: fit-content !important;
 
-        img {
-            display: none;
-        }
-    }
-
-    .acc-card {
-        height: 180px !important;
-    }
-
-    .card,
-    .accents {
-        top: 0;
-    }
-
-    .accents {
-        .light {
-            top: 124px;
-            bottom: 0;
-
-            &.sm {
-                top: 42px;
-            }
-        }
-    }
-} */
 
 .wave-container {
     position: absolute;
@@ -869,58 +818,89 @@ body {
     min-height: 100vh;
     text-align: center;
 } */
-.rotater{
+.rotater {
     animation: rotater 4s infinite;
     transform-origin: center center;
 }
+
 @keyframes rotater {
-    from{
+    from {
         transform: rotate(0);
     }
-    to{
+
+    to {
         transform: rotate(360deg);
     }
 }
 
 
 .animate__rotateOutUpRight {
-  -webkit-animation-name: rotateOutUpRight;
-  animation-name: rotateOutUpRight;
-  -webkit-transform-origin: right bottom;
-  transform-origin: right bottom;
+    -webkit-animation-name: rotateOutUpRight;
+    animation-name: rotateOutUpRight;
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
 }
+
 @-webkit-keyframes rotateOutUpRight {
-  from {
-    opacity: 1;
-  }
+    from {
+        opacity: 1;
+    }
 
-  to {
-    -webkit-transform: rotate3d(0, 0, 1, 90deg);
-    transform: rotate3d(0, 0, 1, 90deg);
-    opacity: 0;
-  }
+    to {
+        -webkit-transform: rotate3d(0, 0, 1, 90deg);
+        transform: rotate3d(0, 0, 1, 90deg);
+        opacity: 0;
+    }
 }
+
 @keyframes rotateOutUpRight {
-  from {
-    opacity: 1;
-  }
+    from {
+        opacity: 1;
+    }
 
-  to {
-    -webkit-transform: rotate3d(0, 0, 1, 90deg);
-    transform: rotate3d(0, 0, 1, 90deg);
-    opacity: 0;
-  }
+    to {
+        -webkit-transform: rotate3d(0, 0, 1, 90deg);
+        transform: rotate3d(0, 0, 1, 90deg);
+        opacity: 0;
+    }
 }
+
 .state-1,
 .state-2,
 .state-3,
-.state-4{
-  -webkit-animation-name: rotateOutUpRight;
-  animation-name: rotateOutUpRight;
-  -webkit-transform-origin: right bottom;
-  transform-origin: right bottom;
-  opacity: 0;
+.state-4 {
+    -webkit-animation-name: rotateOutUpRight;
+    animation-name: rotateOutUpRight;
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    opacity: 0;
 }
+
+/* ---------------------------------------------------------------- */
+/* swiper */
+/* ---------------------------------------------------------------- */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 @media(min-width:768px) {
     .back {
         background: url("../images/back.jpg");
