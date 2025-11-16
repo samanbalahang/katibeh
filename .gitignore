@@ -20,7 +20,6 @@
 /wp-content/languages/
 
 # Plugins (exclude all by default)
-/wp-content/plugins/
 /wp-content/plugins/index.php
 # Uncomment to whitelist specific plugins:
 # !/wp-content/plugins/your-custom-plugin/
