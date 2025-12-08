@@ -347,7 +347,10 @@ get_header('falahz');
                                         <p class="text-white! text-capitalize! tracking-[0.41rem]! mb-3!">
                                             <?= the_field('withkatibehnaji') ?>
                                         </p>
-                                        <a href="<?= the_field("afeleatlink") ?>" class="rounded-sm! bg-secondary! text-white! px-3 md:flex! md:items-center!">
+                                        <?php
+                                        $link = get_field('afeleatlink');
+                                        ?>
+                                        <a href="<?=  esc_url($link["url"]); ?>" class="rounded-sm! bg-secondary! text-white! px-3 md:flex! md:items-center!">
                                             اطلاعات بیشتر
                                         </a>
                                     </div>
@@ -517,7 +520,10 @@ get_header('falahz');
                                     <p class="text-gray-500! md:text-white! text-capitalize! tracking-[0.41rem]! mb-3! md:mt-3">
                                         <?= the_field('withkatibehnaji') ?>
                                     </p>
-                                    <a href="<?= the_field("coachnglink") ?>" class="rounded-sm! bg-secondary! text-white! px-3 md:flex! md:items-center!">
+                                    <?php
+                                    $link = get_field('coachnglink');
+                                    ?>
+                                    <a href="<?= esc_url($link["url"]);  ?>" class="rounded-sm! bg-secondary! text-white! px-3 md:flex! md:items-center!">
                                         اطلاعات بیشتر
                                     </a>
                                 </div>
@@ -574,7 +580,10 @@ get_header('falahz');
                                     <p class="text-white! text-capitalize! tracking-[0.41rem]! mb-3!">
                                         <?= the_field('withkatibehnaji') ?>
                                     </p>
-                                    <a href="<?= the_field("digitallink") ?>" class="rounded-sm! bg-secondary! text-white! px-3 md:flex! md:items-center!">
+                                    <?php
+                                    $link = get_field('digitallink');
+                                    ?>
+                                    <a href="<?= esc_url($link["url"]); ?>" class="rounded-sm! bg-secondary! text-white! px-3 md:flex! md:items-center!">
                                         اطلاعات بیشتر
                                     </a>
                                 </div>
@@ -630,7 +639,10 @@ get_header('falahz');
                                     <p class="text-white! text-capitalize! tracking-[0.41rem]! mb-3!">
                                         <?= the_field('withkatibehnaji') ?>
                                     </p>
-                                    <a href="<?= the_field("eventlink") ?>" class="rounded-sm! bg-secondary! text-white! px-3 md:flex! md:items-center!">
+                                    <?php
+                                    $link = get_field('eventlink');
+                                    ?>
+                                    <a href="<?= esc_url($link["url"]); ?>" class="rounded-sm! bg-secondary! text-white! px-3 md:flex! md:items-center!">
                                         اطلاعات بیشتر
                                     </a>
                                 </div>
@@ -701,7 +713,10 @@ get_header('falahz');
                                     <p class="text-white! text-capitalize! tracking-[0.41rem]! mb-3! hidden md:block">
                                         <?= the_field('withkatibehnaji') ?>
                                     </p>
-                                    <a href="<?= the_field("tabliqlink") ?>" class="rounded-sm! bg-secondary! text-white! px-3 md:flex! md:items-center!">
+                                    <?php
+                                    $link = get_field('tabliqlink');
+                                    ?>
+                                    <a href="<?= esc_url( $link["url"]); ?>" class="rounded-sm! bg-secondary! text-white! px-3 md:flex! md:items-center!">
                                         اطلاعات بیشتر
                                     </a>
                                 </div>
@@ -761,7 +776,10 @@ get_header('falahz');
                                     <p class="text-white! text-capitalize! tracking-[0.41rem]! mb-3! hidden md:block">
                                         <?= the_field('withkatibehnaji') ?>
                                     </p>
-                                    <a href="<?= the_field("eventlink") ?>" class="rounded-sm! bg-secondary! text-white! px-3 md:flex! md:items-center!">
+                                    <?php
+                                    $link = get_field('eventlink');
+                                    ?>
+                                    <a href="<?=  esc_url($link["url"]);  ?>" class="rounded-sm! bg-secondary! text-white! px-3 md:flex! md:items-center!">
                                         اطلاعات بیشتر
                                     </a>
                                 </div>
@@ -819,7 +837,12 @@ get_header('falahz');
                                     <p class="text-white! text-capitalize! tracking-[0.41rem]! mb-3!">
                                         <?= the_field('withkatibehnaji') ?>
                                     </p>
-                                    <a href="<?= the_field("hadayalink") ?>" class="rounded-sm! bg-secondary! text-white! px-3 md:flex! md:items-center!">
+                                    <?php
+
+                                    $link = get_field('hadayalink');
+
+                                    ?>
+                                    <a href="<?=  esc_url($link["url"]); ?>" class="rounded-sm! bg-secondary! text-white! px-3 md:flex! md:items-center!">
                                         اطلاعات بیشتر
                                     </a>
                                 </div>
