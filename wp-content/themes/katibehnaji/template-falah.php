@@ -122,37 +122,37 @@ get_header('falahz');
             <div class="absolute w-75/100 bottom-2 z-2 flex justify-between items-center text-white px-10 left-50/100 -translate-x-50/100">
                 <ul class="flex justify-between items-center list-none! m-0!">
                     <li>
-                        <a href="#" class="text-white! px-4">
+                        <a href="/contact/" class="text-white! px-4">
                             تماس با ما
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="text-white! px-4">
+                        <a href="/about/" class="text-white! px-4">
                             درباره ما
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="text-white! px-4">
+                        <a href="/نمونه-کارها/" class="text-white! px-4">
                             نمونه کارها
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="text-white! px-4">
+                        <a href="/پروژه-ها/" class="text-white! px-4">
                             پروژه ها
                         </a>
                     </li>
                 </ul>
                 <div class="flex justify-between items-center lg:hidden xl:flex">
-                    <a href="#" class="px-2">
+                    <a href="https://www.instagram.com/katibehnaji.co" class="px-2">
                         <img src="<?= get_template_directory_uri() ?>/assets/images/falah/instawhite.svg" alt="instawhite.svg" class="w-5">
                     </a>
-                    <a href="#" class="px-2">
+                    <a href="https://wa.me/09351444700" class="px-2">
                         <img src="<?= get_template_directory_uri() ?>/assets/images/falah/whatsappwhite.svg" alt="whatsappwhite.svg" class="w-5">
                     </a>
-                    <a href="#" class="px-2">
+                    <a href="https://t.me/" class="px-2">
                         <img src="<?= get_template_directory_uri() ?>/assets/images/falah/telegramwhite.svg" alt="telegramwhite.svg" class="w-5">
                     </a>
-                    <a href="#" class="px-2">
+                    <a href="https://www.aparat.com/katibehnaji.co" class="px-2">
                         <img src="<?= get_template_directory_uri() ?>/assets/images/falah/aparatwhite.svg" alt="aparatwhite.svg" class="w-5">
                     </a>
                 </div>
@@ -182,7 +182,6 @@ get_header('falahz');
                         d="M255.77 6.31c-0.08,-0.13 -0.15,-0.25 -0.23,-0.37l-0.01 -0.01 -0 0c-2.32,-3.56 -6.33,-5.93 -10.87,-5.93l-215.31 0c-4.78,0 -8.98,2.63 -11.23,6.51 -4.29,6.5 -12.73,9.5 -18.12,9.5l16.39 0 5.43 0 230.37 0 5.42 0 16.4 0c-5.44,0 -14,-3.07 -18.25,-9.7z" />
                 </g>
             </svg>
-
         </div>
     </div>
 </div>
@@ -407,9 +406,11 @@ get_header('falahz');
                                         </span>
                                     </p>
                                     <div class="flex flex-col max-w-full">
+                                        <a href="https://katibehnaji.com/%d9%be%db%8c%d8%b4-%d8%a8%d8%b1%d9%86%d8%af%db%8c%d9%86%da%af/">
                                         <div class="bg-linear-to-r from-gray-100/70 to-gray-500/70 text-center max-w-full text-white text-[2rem] w-50 px-2 md:w-150 md:text-[4rem] ">
                                             <?= the_field("pishbranding") ?>
                                         </div>
+                                        </a>
                                         <div class="text-secondary text-center md:bg-linear-to-r md:text-[2rem]">
                                             <?= the_field("prebranding") ?>
                                         </div>
@@ -422,9 +423,11 @@ get_header('falahz');
                                         </span>
                                     </p>
                                     <div class="flex flex-col max-w-full">
+                                        <a href="https://katibehnaji.com/%d8%a8%d8%b1%d9%86%d8%af%db%8c%d9%86%da%af/">
                                         <div class="bg-linear-to-r from-gray-100/70 to-gray-500/70 text-center max-w-full text-white text-[2rem] w-50 px-2 md:w-150 md:text-[4rem]">
                                             <?= the_field("branding") ?>
                                         </div>
+                                        </a>
                                         <div class="text-secondary text-center md:bg-linear-to-r md:text-[2rem]">
                                             <?= the_field("brandingen") ?>
                                         </div>
@@ -436,10 +439,13 @@ get_header('falahz');
                                             3
                                         </span>
                                     </p>
+                                    
                                     <div class="flex flex-col max-w-full">
+                                        <a href="https://katibehnaji.com/%d8%aa%d8%af%d8%a7%d9%88%d9%85-%d8%a8%d8%b1%d9%86%d8%af%db%8c%d9%86%da%af/">
                                         <div class="bg-linear-to-r from-gray-100/70 to-gray-500/70 text-center max-w-full text-white text-[2rem] w-50 px-2 md:w-150 md:text-[4rem]">
                                             <?= the_field("tadavom") ?>
                                         </div>
+                                        </a>
                                         <div class="text-secondary text-center md:bg-linear-to-r md:text-[2rem]">
                                             <?= the_field("brandingcontinuity") ?>
                                         </div>
@@ -452,9 +458,11 @@ get_header('falahz');
                                         </span>
                                     </p>
                                     <div class="flex flex-col max-w-full">
+                                        <a href="https://katibehnaji.com/post-branding/">
                                         <div class="bg-linear-to-r from-gray-100/70 to-gray-500/70 text-center max-w-full text-white text-[2rem] w-50 px-2 md:w-150 md:text-[4rem]">
                                             <?= the_field("pasabranding") ?>
                                         </div>
+                                        </a>
                                         <div class="text-secondary text-center md:bg-linear-to-r md:text-[2rem]">
                                             <?= the_field("postbranding") ?>
                                         </div>
@@ -777,9 +785,9 @@ get_header('falahz');
                                         <?= the_field('withkatibehnaji') ?>
                                     </p>
                                     <?php
-                                    $link = get_field('eventlink');
+                                    $link = get_field('chaplink');
                                     ?>
-                                    <a href="<?=  esc_url($link["url"]);  ?>" class="rounded-sm! bg-secondary! text-white! px-3 md:flex! md:items-center!">
+                                    <a href="<?=  esc_url($link["url"]);  ?>" class="rounded-sm! bg-secondary! text-white! px-3 md:flex! md:items-center! chaplink">
                                         اطلاعات بیشتر
                                     </a>
                                 </div>
@@ -979,7 +987,7 @@ get_header('falahz');
                 </div>
                 <div class="w-full lg:w-80/100">
                     <div class="relative  bg-white rounded-sx overflow-hidden h-full w-full! p-5">
-                        <div class="first-layer h-80/100 top-15 lg:h-[75vh] lg:top-20 block! relative mt-10! w-full! md:mt-50! lg:mt-5! xl:mt-16!">
+                        <div class="first-layer h-80/100 top-13 lg:h-[75vh] lg:top-20 block! relative mt-10! w-full! md:mt-50! lg:mt-5! xl:mt-16!">
                             <hgroup class="md:w-50/100 mx-auto">
                                 <h2 class="text-[1rem]! flex items-stretch">
                                     <img src="<?= get_template_directory_uri() ?>/assets/images/falah/purplebox.jpg" alt="purplebox" class="block w-1/5!">
@@ -994,7 +1002,7 @@ get_header('falahz');
                                     <?= the_field("articletitleen") ?>
                                 </h2>
                             </hgroup>
-                            <div class="position-relative w-40/100 md:w-90/100 mx-auto flex flex-wrap">
+                            <div class="position-relative w-75/100 md:w-90/100 mx-auto flex flex-wrap">
                                 <div class="w-full md:w-1/3 mb-1 md:mb-1 md:mt-0 relative  px-1 md:px-3">
                                     <a href="<?php echo esc_url(home_url('/')); ?>/category/articles/">
                                         <?php
@@ -1066,8 +1074,8 @@ get_header('falahz');
                                         </div>
                                         <div class="w-1/2 md:w-1/2 px-2 my-2">
                                             <div class="mahallo md:text-right!">
-                                                <a href="#" class="text-white!">
-                                                    برندبوک
+                                                <a href="/برندینگ/" class="text-white!">
+                                                    برندینگ
                                                 </a>
                                             </div>
                                         </div>
@@ -1080,28 +1088,28 @@ get_header('falahz');
                                         </div>
                                         <div class="w-1/2 md:w-1/2 px-2 my-2">
                                             <div class="mahallo md:text-right!">
-                                                <a href="#" class="text-white!">
+                                                <a href="/event-marketing/" class="text-white!">
                                                     ایونت مارکتینگ
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="w-1/2 md:w-1/2 px-2 my-2">
                                             <div class="mahallo md:text-right!">
-                                                <a href="#" class="text-white!">
+                                                <a href="/نمونه-کارها/" class="text-white!">
                                                     نمونه کارها
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="w-1/2 md:w-1/2 px-2 my-2">
                                             <div class="mahallo md:text-right!">
-                                                <a href="#" class="text-white!">
+                                                <a href="/digital-marketing/" class="text-white!">
                                                     دیجیتال مارکتینگ
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="w-1/2 md:w-1/2 px-2 my-2">
                                             <div class="mahallo md:text-right!">
-                                                <a href="#" class="text-white!">
+                                                <a href="/پروژه-ها/" class="text-white!">
                                                     پروژه ها
                                                 </a>
                                             </div>
@@ -1115,7 +1123,7 @@ get_header('falahz');
                                         </div>
                                         <div class="w-full md:w-full  px-2 my-2">
                                             <div class="mahallo md:text-right! w-80/100 md:w-full md:mx-auto">
-                                                <a href="#" class="text-white!">
+                                                <a href="/مدل-برنیدنگ-کتیبه-ناجی/" class="text-white!">
                                                     مدل برندینگ کتیبه ناجی
                                                 </a>
                                             </div>

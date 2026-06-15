@@ -1,0 +1,61 @@
+ .searchForm {
+      width: 80%;
+      height: auto;
+      margin: auto;
+      position: relative;
+  }
+
+  .border {
+      position: absolute;
+      inset: 0;
+      clip-path: inset(0 0 0 0 round calc(24 * 1px));
+      border-radius: calc(24 * 1px);
+      background: var(--border);
+      z-index: -1;
+      border: 0;
+  }
+
+  .trail {
+      width: calc(25 * 1cqmin);
+      aspect-ratio: 2 / 1;
+      position: absolute;
+      background: radial-gradient(100% 100% at right,
+              black, red,
+              transparent 50%);
+      offset-path: border-box;
+      offset-anchor: 100% 50%;
+      animation: journey 3s infinite linear;
+      /* Faster: 3s instead of 6s */
+  }
+
+  /* Second trail - exactly opposite */
+  .trail-opposite {
+      background: radial-gradient(100% 100% at left,
+              black, blue,
+              transparent 50%);
+      offset-anchor: 0% 50%;
+      animation: journey-opposite 3s infinite linear;
+      /* Faster: 3s instead of 6s */
+      offset-distance: 50%;
+  }
+
+  @keyframes journey {
+      to {
+          offset-distance: 100%;
+      }
+  }
+
+  @keyframes journey-opposite {
+      to {
+          offset-distance: 150%;
+      }
+  }
+
+  .content {
+      background: linear-gradient(color-mix(in lch, canvas 99%, canvastext), color-mix(in lch, canvas 99%, canvastext)) padding-box, none;
+      border: calc(3 * 1px) solid transparent;
+      border-radius: calc(24 * 1px);
+      padding: 2rem;
+      display: grid;
+      gap: 1rem;
+  }
